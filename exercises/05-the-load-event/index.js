@@ -1,1 +1,5 @@
-// your function goes here
+function loaded(){
+    alert('loading finished...')
+}
+
+document.querySelector('body').addEventListener("load",loaded())
